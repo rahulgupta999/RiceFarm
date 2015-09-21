@@ -5,6 +5,10 @@
 #include "Farm.h"
 #include <ctime>
 
+#ifdef WIN32
+#include <strstream>
+#endif
+
 struct comparator
 {
     bool operator() (riceVariety *first, riceVariety *second)
@@ -103,7 +107,11 @@ void farm::populateRiceVarietyList()
     getline(infile, line);
     if(*line.rbegin() == '\r') { line.resize(line.size() - 1); }
 
-    if (strcasecmp(line.c_str(), "Variety,Flowering Date") != 0)
+#ifdef WIN32
+    if (stricmp(line.c_str(), "Variety,Flowering Date") != 0)
+#else
+	if (strcasecmp(line.c_str(), "Variety,Flowering Date") != 0)
+#endif
     {
         throw (string("ERROR: input file CSV header '") + line + string("' is not as desired, check the sample"));
     }
@@ -369,7 +377,11 @@ bool farm::willItConflict(int currentPlotIndex, riceVariety *possibleVariety)
 
 string farm::getStringFromInt(int num)
 {
-    std::stringstream ss;
+#ifdef WIN32
+    std::strstream ss;
+#else
+	std::stringstream ss;
+#endif
     ss << num;
     return ss.str();
 }
