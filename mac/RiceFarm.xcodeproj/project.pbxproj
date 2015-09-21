@@ -1,0 +1,247 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68632F291BAFF31A00D8D597 /* Farm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68632F221BAFF31A00D8D597 /* Farm.cpp */; };
+		68632F2A1BAFF31A00D8D597 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68632F241BAFF31A00D8D597 /* main.cpp */; };
+		68632F2B1BAFF31A00D8D597 /* RiceVariety.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68632F251BAFF31A00D8D597 /* RiceVariety.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		68F0FE311B4CE92300E0AAE6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		68632F221BAFF31A00D8D597 /* Farm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Farm.cpp; path = ../../source/Farm.cpp; sourceTree = "<group>"; };
+		68632F231BAFF31A00D8D597 /* Farm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Farm.h; path = ../../source/Farm.h; sourceTree = "<group>"; };
+		68632F241BAFF31A00D8D597 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../../source/main.cpp; sourceTree = "<group>"; };
+		68632F251BAFF31A00D8D597 /* RiceVariety.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RiceVariety.cpp; path = ../../source/RiceVariety.cpp; sourceTree = "<group>"; };
+		68632F261BAFF31A00D8D597 /* RiceVariety.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RiceVariety.h; path = ../../source/RiceVariety.h; sourceTree = "<group>"; };
+		68632F271BAFF31A00D8D597 /* stdafx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stdafx.h; path = ../../source/stdafx.h; sourceTree = "<group>"; };
+		68632F281BAFF31A00D8D597 /* targetver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = targetver.h; path = ../../source/targetver.h; sourceTree = "<group>"; };
+		68F0FE331B4CE92300E0AAE6 /* RiceFarm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RiceFarm; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68F0FE301B4CE92300E0AAE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68F0FE2A1B4CE92300E0AAE6 = {
+			isa = PBXGroup;
+			children = (
+				68F0FE351B4CE92300E0AAE6 /* RiceFarm */,
+				68F0FE341B4CE92300E0AAE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68F0FE341B4CE92300E0AAE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68F0FE331B4CE92300E0AAE6 /* RiceFarm */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68F0FE351B4CE92300E0AAE6 /* RiceFarm */ = {
+			isa = PBXGroup;
+			children = (
+				68632F221BAFF31A00D8D597 /* Farm.cpp */,
+				68632F231BAFF31A00D8D597 /* Farm.h */,
+				68632F241BAFF31A00D8D597 /* main.cpp */,
+				68632F251BAFF31A00D8D597 /* RiceVariety.cpp */,
+				68632F261BAFF31A00D8D597 /* RiceVariety.h */,
+				68632F271BAFF31A00D8D597 /* stdafx.h */,
+				68632F281BAFF31A00D8D597 /* targetver.h */,
+			);
+			path = RiceFarm;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68F0FE321B4CE92300E0AAE6 /* RiceFarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68F0FE3C1B4CE92300E0AAE6 /* Build configuration list for PBXNativeTarget "RiceFarm" */;
+			buildPhases = (
+				68F0FE2F1B4CE92300E0AAE6 /* Sources */,
+				68F0FE301B4CE92300E0AAE6 /* Frameworks */,
+				68F0FE311B4CE92300E0AAE6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RiceFarm;
+			productName = RiceFarm;
+			productReference = 68F0FE331B4CE92300E0AAE6 /* RiceFarm */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68F0FE2B1B4CE92300E0AAE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Jhini;
+			};
+			buildConfigurationList = 68F0FE2E1B4CE92300E0AAE6 /* Build configuration list for PBXProject "RiceFarm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 68F0FE2A1B4CE92300E0AAE6;
+			productRefGroup = 68F0FE341B4CE92300E0AAE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68F0FE321B4CE92300E0AAE6 /* RiceFarm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68F0FE2F1B4CE92300E0AAE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68632F2A1BAFF31A00D8D597 /* main.cpp in Sources */,
+				68632F2B1BAFF31A00D8D597 /* RiceVariety.cpp in Sources */,
+				68632F291BAFF31A00D8D597 /* Farm.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		68F0FE3A1B4CE92300E0AAE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.8;
+			};
+			name = Debug;
+		};
+		68F0FE3B1B4CE92300E0AAE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx10.8;
+			};
+			name = Release;
+		};
+		68F0FE3D1B4CE92300E0AAE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		68F0FE3E1B4CE92300E0AAE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68F0FE2E1B4CE92300E0AAE6 /* Build configuration list for PBXProject "RiceFarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68F0FE3A1B4CE92300E0AAE6 /* Debug */,
+				68F0FE3B1B4CE92300E0AAE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68F0FE3C1B4CE92300E0AAE6 /* Build configuration list for PBXNativeTarget "RiceFarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68F0FE3D1B4CE92300E0AAE6 /* Debug */,
+				68F0FE3E1B4CE92300E0AAE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68F0FE2B1B4CE92300E0AAE6 /* Project object */;
+}
