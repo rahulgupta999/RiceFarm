@@ -3,11 +3,12 @@ How To Use:
 
 1) Update the runme.command file in TextEdit as following
 
-		./RiceFarm <no_of_rows> <no_of_columns> <path of input.csv> <number_of_seconds> <numberof_reductions>
+		./RiceFarm <no_of_rows> <no_of_columns> <path of input.csv> <number_of_seconds> <numberof_reductions> <number_of_pollination_days>
 
 	Where:
-		<number_of_seconds>    : number of seconds for which each iteration of algorithm is applied(default 300)
-		<number_of_reductions> : number of reduction iterations (in each iteration few rice varieties are deleted at semi-random) (default 0)
+		<number_of_seconds>        : number of seconds for which each iteration of algorithm is applied(default 300)
+		<number_of_reductions>     : number of reduction iterations (in each iteration few rice varieties are deleted at semi-random) (default 0)
+		number_of_pollination_days : number of days for pollination of a variety (default 3)
 
 
 2) Run by double clicking on the runme.command

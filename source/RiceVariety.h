@@ -149,9 +149,9 @@ public:
     ~riceVariety()
     {}
 
-    bool pollinationConflicts(riceVariety *rhs)
+    bool pollinationConflicts(riceVariety *rhs, int pollinationDays)
     {
-        const time_t THREE_DAY = 3 * 24 * 60 * 60;
+        const time_t pollination_gap = pollinationDays * 24 * 60 * 60;
 
         struct tm dateStructObjThis = {0, 0, 12};
         dateStructObjThis.tm_year = (this->sDate.year) - 1900;
@@ -170,7 +170,7 @@ public:
 
         if (date_seconds_rhs > date_seconds_this)
         {
-            if (date_seconds_rhs - date_seconds_this < THREE_DAY)
+            if (date_seconds_rhs - date_seconds_this < pollination_gap)
             {
                 return true;
             }
@@ -181,7 +181,7 @@ public:
         }
         else 
         {
-            if (date_seconds_this - date_seconds_rhs < THREE_DAY)
+            if (date_seconds_this - date_seconds_rhs < pollination_gap)
             {
                 return true;
             }

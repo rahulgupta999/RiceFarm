@@ -24,6 +24,7 @@ public:
     void                                copyRiceVarietyToMaxRiceVariety();
     int                                 maxTimeSec;
     int                                 allowedRemoval;
+    int                                 pollinationDays;
 
 private:
     vector<vector<plot *> >             farmPlotAdjacencyMap;

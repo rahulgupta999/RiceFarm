@@ -27,6 +27,10 @@ int main(int argc, char* argv[])
     {
         riceFarm->allowedRemoval = atoi(argv[5]);
     }
+    if (argc > 6 && argv[6])
+    {
+        riceFarm->pollinationDays = atoi(argv[6]);
+    }
     riceFarm->placeRiceinGrid();
 
     delete riceFarm;

@@ -17,7 +17,7 @@ struct comparator
     }
 }comparatorObj;
 
-farm::farm(int i, int j, char *inFilePath, char *outFilePath) : rows(i), columns(j), bestEffortSolution(false), maxTimeSec(300), totalRemoved(0)
+farm::farm(int i, int j, char *inFilePath, char *outFilePath) : rows(i), columns(j), bestEffortSolution(false), maxTimeSec(300), totalRemoved(0), pollinationDays(3)
 {
     farmGrid = new plot**[rows];
     for (int index=0; index<rows; ++index)
@@ -175,7 +175,7 @@ void farm::populateNonConflictingNeighbours()
             {
                 continue;
             }
-            else if (!variety->pollinationConflicts(runner))
+            else if (!variety->pollinationConflicts(runner, pollinationDays))
             {
                 (variety)->nonConflictingNeighbours.insert(runner);
             }
@@ -410,6 +410,7 @@ void farm::placeRiceinGrid()
         }
 
         cout << "INFO: populating conflicting neighbours for rice variety size: " << riceVarietyList.size() << endl;
+        cout << "INFO: No. of pollination days = " << pollinationDays << endl;
         populateNonConflictingNeighbours();
 
         //sortListAsPerDesiredOrder();
